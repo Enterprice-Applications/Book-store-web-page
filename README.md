@@ -15,7 +15,7 @@ A creative web design for a book store, allowing users to browse and purchase bo
 # Features
 
     Browse and search for books by title, author, or genre.
-    View book details, including the cover image, description, and price. Add books to the shopping cart and proceed to checkout. User registration and login functionality.
+    View book details, including the cover image, description, and price. Add books to the shopping cart and proceed to checkout. User registration and login functionality. 
    
 
 # Demo
@@ -26,11 +26,13 @@ A creative web design for a book store, allowing users to browse and purchase bo
 # Technologies Used
 
     HTML5, CSS3, JavaScript
+    Fontawsome
     Bootstrap for styling
     
     
 # Usage
-
+	
+	Customers can easily Navigate to other pages.
     Register as a new user or log in as an existing user.
     Browse the available books and add them to your shopping cart.
     Proceed to checkout to complete your purchase.
