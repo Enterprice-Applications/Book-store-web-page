@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>  
+    <head>  
+        <title>ABC Bookstore/Register</title>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href="css/regstyle.css">
+
+    </head>  
+    <body>
+        
+        <div class="regcontainer">
+            <img url="images/bookcofee.jpeg">
+            <form action="" method="post">
+                <h2>Registration</h2>
+                <div class="regcont">
+                    <div class="input-box">
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="Enter full name" name="name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="username">Username</label>
+                        <input type="text" placeholder="username" name="uname" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter your email" name="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="tel" placeholder="Enter phone number" name="phonenumber" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Enter new password" name="password" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="cpassword">Confirm Password</label>
+                        <input type="password" placeholder="Confirm password" name="confirmpassword" required>
+                    </div>
+                    <span class="gender-title">Gender</span>
+                    <div class="gender-category">
+                        <input type="radio" name="gender" id="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="gender">Female</label>
+                    </div>
+                    <div class="alert">
+                        <p>By clicking Sign up, you may receive SMS notifications from us and opt out at any time.</p>
+                    </div>
+                    <div class="btn-regcont">
+                        <button type="submit">Register</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+
+
+        
+    </body>
+</html>

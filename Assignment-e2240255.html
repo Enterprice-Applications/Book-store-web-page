@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>  
+    <head>  
+        <title>ABC Bookstore</title>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href="css/assignment.css">
+        <style type="text/css">
+            .family{
+                background-color: bisque;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .family h2{
+                max-width: inherit;
+                font-size: 35px;
+                color: blue;
+            }
+            .family ul{
+                text-align: center;
+                font-size: 20px;
+                color: rgb(2, 29, 29);
+            }
+            
+            .family ul:hover{
+                color: chartreuse;
+            }
+            .contain{
+                background-color: bisque;
+                border-radius: 2px;
+                padding: 20px;
+            }
+            .contain h3{
+                color: darkorchid;
+                font-size: 20px;
+                font-weight: 30%;
+                font-style: italic;
+            }
+            .contain p{
+                font-size: 15px;
+                color: brown;
+                font-weight: 200;
+                font-style: italic;
+                margin-top: 12px;
+            }
+        </style>
+
+    </head>  
+    <body>
+        <!-- header section -->
+        <header class="header">
+            <div class="header-1">
+                <a href="#" class="logo"><i class="fas fa-book"></i> ABC Bookstore</a>
+                <form action="" class="search-form">
+                    <input type="search" names="" placeholder="search here..." id="search-box">
+                    <label for="search-box" class="fas fa-search"></label>
+                </form>
+                <div class="icons">
+                    <div id="search-btn" class="fas fa search"></div>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <div id="login-btn" class="fas fa-user"></div>
+
+                </div>
+            </div>
+            <div class="header-2">
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="register.html">Register</a>
+                    <a href="selectbook.html">Books</a>
+                    <a href="event.html">Events</a>
+                    <a href="aboutus.html">About us</a>
+                    <a href="contact.html">Contact us</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Login Form -->
+        <div class="login-form-container">
+            <div class="close-login-btn" class="fas fa-times"></div>
+            <form action="">
+                <h3>sign in</h3>
+                <span>Username</span>
+                <input type="email" name="" class ="box" placeholder="Enter your email" id="">
+                <span>Password</span>
+                <input type="password" name="" class ="box" placeholder="Enter your password" id="">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me"> remember me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <p>forget password ?<a href="#">click here</a></p>
+                <p>don't have an account ?<a href="#">create one</a></p>
+            </form>
+        </div>
+        <!-- home section starts -->
+        <section class="home" id="home">
+            <div class="rwo">
+                <div class="content">
+                    <h1>upto 50% off</h1><br>
+                    <h3>The biggest collection of Sherlock Holmes stories ever assembled! </h3><br>
+                    <p font-size="20"> Arguably no other character in history has been so enduringly popular 
+                        as Sherlock Holmes. Ever since his first appearance, 
+                        in Arthur Conan Doyle’s 1887 novella A Study in Scarlet, 
+                        readers have loved reading about him almost as much as writers 
+                        have loved writing about him.</p><br>
+                        <a href="#" class="btn">shop now</a><br>
+                </div><br>
+
+                <div class="swiper home-slider">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide"><img src="images/sherlock1.jpeg" alt="" height="250" widthe="160"> </a>
+                        <a href="#" class="swiper-slide"><img src="images/sherlock2.jpeg" alt="" height="250" widthe="160"> </a>
+                        <a href="#" class="swiper-slide"><img src="images/sherlock3.jpeg" alt="" height="250" widthe="160"> </a>
+                        <a href="#" class="swiper-slide"><img src="images/sherlock4.jpeg" alt="" height="250" widthe="160"> </a>
+                        <a href="#" class="swiper-slide"><img src="images/sherlock5.jpeg" alt="" height="250" widthe="160"> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- icons selection starts -->
+        <section class="icon-container">
+
+            <div class="icons">
+                <i class="fas fa-plane"></i>
+                <div class="content">
+                    <h2>free delivery</h2>
+                    <p>order over $75</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-lock"></i>
+                <div class="content">
+                    <h2>secure payment</h2>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-redo-alt"></i>
+                <div class="content">
+                    <h2>easy returns</h2>
+                    <p>10 days returns</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <div class="content">
+                    <h2>24/7 support</h2>
+                    <p>call us anytime</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-location"></i>
+                <div class="content">
+                    <h2>Visit Our store</h2>
+                    <p>Week days</p>
+                </div>
+            </div>
+        </section>
+        <section class="books" id="books">
+            <a href="books.html"></a>
+        </section>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <!-- custom js file link -->
+        <script src="js/assignment.js"></script>
+        
+
+    </body>
+</html>
